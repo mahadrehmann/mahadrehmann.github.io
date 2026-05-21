@@ -1,28 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Mahad Rehman Durrani's Portfolio</title>
-    <link rel="stylesheet" href="css/master.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahad Rehman Durrani | AI Engineer</title>
+  <meta name="description" content="Mahad Rehman Durrani — AI Engineer building Agentic AI systems, MLOps pipelines, and production-grade GenAI applications. CS @ FAST-NUCES.">
+  <meta name="author" content="Mahad Rehman Durrani">
+  <meta name="theme-color" content="#0D0D0D">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <img src="images/banner.jpg" width="100%" alt="banner">
-        <h1>Mahad Rehman Durrani</h1>
-        <h2>About Me</h2>
-        <p>CS @ FAST-NUCES</p>
-        <p>Spring Tool Suite, MERN & Android</p>
-        
-        <h2>Portfolio</h2>
-        <p><a href="resume.html">My Resume</a> | <a href="https://github.com/mahadrehmann">My GitHub</a></p>
-        
-        <h2>Contact:</h2>
-        <a href="mailto:mahadrehman04@gmail.com">mahadrehman04@gmail.com</a>
+
+  <!-- ====== TOP BAR ====== -->
+  <nav class="topbar" id="topbar" aria-label="Main navigation">
+    <div class="topbar-left">
+      <a href="#hero" class="topbar-logo" id="topbar-logo">mahad@portfolio</a>
     </div>
 
-    <footer>
-        <hr>
-        <p>© 2025 Mahad Rehman Durrani</p>
-    </footer>
+    <div class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </div>
+
+    <div class="topbar-center" id="nav-center">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">about</a></li>
+        <li><a href="#experience" class="nav-link">experience</a></li>
+        <li><a href="#projects" class="nav-link">projects</a></li>
+        <li><a href="#skills" class="nav-link">skills</a></li>
+        <li><a href="#contact" class="nav-link">contact</a></li>
+      </ul>
+    </div>
+
+    <div class="topbar-right">
+      <div class="topbar-social-links">
+        <a href="https://github.com/mahadrehmann" target="_blank" rel="noopener" aria-label="GitHub">github</a>
+        <a href="https://linkedin.com/in/mahad-rehman" target="_blank" rel="noopener" aria-label="LinkedIn">linkedin</a>
+      </div>
+      <span class="topbar-clock" id="topbar-clock"></span>
+    </div>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <section id="hero">
+    <div class="container">
+      <div class="terminal hero-terminal">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="red"></span>
+            <span class="yellow"></span>
+            <span class="green"></span>
+          </div>
+          <span class="terminal-title">mahad@portfolio: ~</span>
+        </div>
+        <div class="terminal-body" id="hero-terminal-body">
+          <!-- Typewriter JS populates this -->
+        </div>
+      </div>
+      <div class="hero-ctas" id="hero-ctas">
+        <a href="files/Mahad.pdf" target="_blank" class="cta-btn">↓ resume.pdf</a>
+        <a href="https://github.com/mahadrehmann" target="_blank" rel="noopener" class="cta-btn">→ github</a>
+        <a href="https://linkedin.com/in/mahad-rehman" target="_blank" rel="noopener" class="cta-btn">→ linkedin</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section id="about">
+    <div class="container">
+      <div class="terminal animate-in">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="red"></span><span class="yellow"></span><span class="green"></span>
+          </div>
+          <span class="terminal-title">cat ~/about.md</span>
+        </div>
+        <div class="terminal-body">
+          <div class="about-content">
+            <div class="about-image-wrapper">
+              <img src="images/headshot.png" alt="Mahad Rehman Durrani" class="about-image">
+            </div>
+            <div class="about-text">
+              AI Engineer apprentice at <span class="highlight-text">XFlow Research</span>, building production-grade Agentic Workflows and RAG systems that scale. Final-year Computer Science student at <span class="highlight-text">FAST-NUCES Islamabad</span>.<br><br>
+              I'm passionate about pushing the boundaries of what AI agents can autonomously accomplish — from multi-agent marketing systems to end-to-end MLOps pipelines. I also serve as a Teaching Assistant for Generative AI, mentoring the next wave of builders.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== EXPERIENCE ====== -->
+  <section id="experience">
+    <div class="container">
+      <div class="terminal animate-in">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="red"></span><span class="yellow"></span><span class="green"></span>
+          </div>
+          <span class="terminal-title">cat /var/log/work.log</span>
+        </div>
+        <div class="terminal-body">
+          <div class="experience-entry">
+            <div class="exp-date">[2025-06 → 2026-04]</div>
+            <div class="exp-title">AI Engineer (Apprentice)</div>
+            <div class="exp-company">@ XFlow Research</div>
+            <ul class="exp-bullets">
+              <li>Engineering production-grade Agentic Workflows to automate enterprise processes, focusing on scalability.</li>
+              <li>Reduced LLM hallucinations and inference costs by implementing strict RAG evaluation loops.</li>
+              <li>Gathered and translated client requirements into actionable technical specifications.</li>
+            </ul>
+          </div>
+          <div class="experience-entry">
+            <div class="exp-date">[FAST NUCES]</div>
+            <div class="exp-title">Teaching Assistant</div>
+            <div class="exp-company">@ Generative AI &amp; Software for Mobile Devices</div>
+            <ul class="exp-bullets">
+              <li>Conducted hands-on technical demos and mentored students in Transformers, GANs, VAEs, Diffusion models.</li>
+              <li>Reviewed architectures and API integration strategies for 50+ Mobile Applications (Kotlin/Flutter).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PROJECTS ====== -->
+  <section id="projects">
+    <div class="container">
+      <p class="section-label animate-in">~/projects $</p>
+      <h2 class="section-title animate-in">ls -la</h2>
+      <div class="projects-grid stagger-children">
+
+        <!-- Markly -->
+        <div class="terminal project-card animate-in">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="red"></span><span class="yellow"></span><span class="green"></span>
+            </div>
+            <span class="terminal-title">markly</span>
+          </div>
+          <div class="terminal-body">
+            <div class="project-name">Markly</div>
+            <div class="project-subtitle">Autonomous Marketing Agent System — FYP</div>
+            <p class="project-desc">Multi-agent marketing system automating the end-to-end campaign lifecycle. Computer Vision &amp; GenAI pipeline for data-driven competitor analysis and automated poster generation.</p>
+            <div class="project-tags">
+              <span class="project-tag">FastAPI</span>
+              <span class="project-tag">LangGraph</span>
+              <span class="project-tag">Docker</span>
+              <span class="project-tag">YOLOv8</span>
+              <span class="project-tag">CLIP</span>
+            </div>
+            <a href="https://github.com/mahadrehmann" target="_blank" rel="noopener" class="project-link">→ view on github</a>
+          </div>
+        </div>
+
+        <!-- RAG Chatbot -->
+        <div class="terminal project-card animate-in">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="red"></span><span class="yellow"></span><span class="green"></span>
+            </div>
+            <span class="terminal-title">rag-chatbot</span>
+          </div>
+          <div class="terminal-body">
+            <div class="project-name">RAG Chatbot</div>
+            <div class="project-subtitle">Multi-Stage Evaluation Pipeline</div>
+            <p class="project-desc">ReAct-style RAG agent with LangChain and FAISS, fortified by a strict input validation layer. 4-stage "LLM-as-a-Judge" evaluation pipeline with LangSmith tracing.</p>
+            <div class="project-tags">
+              <span class="project-tag">LangChain</span>
+              <span class="project-tag">OpenAI</span>
+              <span class="project-tag">Gemini</span>
+              <span class="project-tag">LangSmith</span>
+            </div>
+            <a href="https://github.com/mahadrehmann" target="_blank" rel="noopener" class="project-link">→ view on github</a>
+          </div>
+        </div>
+
+        <!-- MailGen -->
+        <div class="terminal project-card animate-in">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="red"></span><span class="yellow"></span><span class="green"></span>
+            </div>
+            <span class="terminal-title">mailgen</span>
+          </div>
+          <div class="terminal-body">
+            <div class="project-name">MailGen</div>
+            <div class="project-subtitle">Agentic Email Automation</div>
+            <p class="project-desc">Multi-agent workflow using CrewAI to autonomously analyze requirements and generate context-aware professional emails. Flask dashboard with background job scheduling.</p>
+            <div class="project-tags">
+              <span class="project-tag">CrewAI</span>
+              <span class="project-tag">Flask</span>
+              <span class="project-tag">Python</span>
+            </div>
+            <a href="https://github.com/mahadrehmann" target="_blank" rel="noopener" class="project-link">→ view on github</a>
+          </div>
+        </div>
+
+        <!-- MLOps Pipeline -->
+        <div class="terminal project-card animate-in">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="red"></span><span class="yellow"></span><span class="green"></span>
+            </div>
+            <span class="terminal-title">mlops-pipeline</span>
+          </div>
+          <div class="terminal-body">
+            <div class="project-name">MLOps Pipeline</div>
+            <div class="project-subtitle">End-to-End Production System</div>
+            <p class="project-desc">Production-grade MLOps with automated model retraining, real-time observability (Prometheus/Grafana) with Slack alerting, and containerized CI/CD deployments to AWS EC2.</p>
+            <div class="project-tags">
+              <span class="project-tag">AWS</span>
+              <span class="project-tag">GitHub Actions</span>
+              <span class="project-tag">Prometheus</span>
+              <span class="project-tag">Docker</span>
+            </div>
+            <a href="https://github.com/mahadrehmann" target="_blank" rel="noopener" class="project-link">→ view on github</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SKILLS / NEOFETCH ====== -->
+  <section id="skills">
+    <div class="container">
+      <div class="terminal animate-in">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="red"></span><span class="yellow"></span><span class="green"></span>
+          </div>
+          <span class="terminal-title">neofetch</span>
+        </div>
+        <div class="terminal-body">
+          <div class="neofetch-layout">
+            <pre class="neofetch-ascii">
+        .---.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+            </pre>
+            <div class="neofetch-info">
+              <div class="neofetch-header">mahad@skills</div>
+              <div class="neofetch-divider">─────────────────────────</div>
+              <div class="neofetch-row"><span class="neofetch-label">Languages: </span><span class="neofetch-value">Python, C/C++, SQL, Java, Bash</span></div>
+              <div class="neofetch-row"><span class="neofetch-label">AI/ML: </span><span class="neofetch-value">Machine Learning, Deep Learning, GenAI, RAG, Agents</span></div>
+              <div class="neofetch-row"><span class="neofetch-label">Frameworks: </span><span class="neofetch-value">PyTorch, TensorFlow, HuggingFace, LangChain, LangGraph, CrewAI</span></div>
+              <div class="neofetch-row"><span class="neofetch-label">Backend: </span><span class="neofetch-value">FastAPI, Flask, NumPy, Pandas, Scikit-Learn</span></div>
+              <div class="neofetch-row"><span class="neofetch-label">DevOps: </span><span class="neofetch-value">AWS, GCP, Docker, Kubernetes, GitHub Actions, Jenkins</span></div>
+              <div class="neofetch-row"><span class="neofetch-label">Monitoring: </span><span class="neofetch-value">Prometheus, Grafana, Linux/WSL</span></div>
+              <div class="neofetch-colors">
+                <span style="background:#2E3436"></span>
+                <span style="background:#CC0000"></span>
+                <span style="background:#4E9A06"></span>
+                <span style="background:#C4A000"></span>
+                <span style="background:#3465A4"></span>
+                <span style="background:#75507B"></span>
+                <span style="background:#06989A"></span>
+                <span style="background:#D3D7CF"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CERTIFICATIONS ====== -->
+  <section id="certifications">
+    <div class="container">
+      <div class="terminal animate-in">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="red"></span><span class="yellow"></span><span class="green"></span>
+          </div>
+          <span class="terminal-title">ls ~/certs/</span>
+        </div>
+        <div class="terminal-body">
+          <div class="cert-item">
+            <span class="cert-icon">📄</span>
+            <span class="cert-name">Machine Learning Specialization</span>
+            <span class="cert-issuer"> — DeepLearning.AI</span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-icon">📄</span>
+            <span class="cert-name">AWS Academy Cloud Foundations</span>
+            <span class="cert-issuer"> — AWS</span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-icon">📄</span>
+            <span class="cert-name">Generative AI with LLMs</span>
+            <span class="cert-issuer"> — DeepLearning.AI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT ====== -->
+  <section id="contact">
+    <div class="container">
+      <div class="terminal animate-in">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="red"></span><span class="yellow"></span><span class="green"></span>
+          </div>
+          <span class="terminal-title">ping mahad</span>
+        </div>
+        <div class="terminal-body">
+          <div class="terminal-line">
+            <span class="prompt">$ </span><span class="command-text">echo $EMAIL</span>
+          </div>
+          <div class="terminal-line response-text">mahadrehman04@gmail.com</div>
+          <br>
+          <div class="terminal-line">
+            <span class="prompt">$ </span><span class="command-text">echo $LOCATION</span>
+          </div>
+          <div class="terminal-line response-text">Islamabad, Pakistan</div>
+          <br>
+          <div class="contact-links">
+            <a href="https://github.com/mahadrehmann" target="_blank" rel="noopener" class="contact-btn">⌘ GitHub</a>
+            <a href="https://linkedin.com/in/mahad-rehman" target="_blank" rel="noopener" class="contact-btn">⌘ LinkedIn</a>
+            <a href="mailto:mahadrehman04@gmail.com" class="contact-btn">✉ Email</a>
+            <a href="files/Mahad.pdf" target="_blank" class="contact-btn">↓ Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Mahad Rehman Durrani — built with ☕ and bash</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
